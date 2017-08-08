@@ -1,0 +1,42 @@
+git clone
+git clone https://github.com/Leo1205/learngit.git
+
+
+git add
+git add readme.txt
+
+
+
+git commit
+git status
+
+
+git log
+git log --graph --pretty=oneline --abbrev-commit
+
+
+git branch
+git branch dev
+git branch -d dev
+
+
+git checkout
+git checkout -b dev
+git checkout master
+
+
+git merge
+git merge dev
+git merge --no-ff -m "merge with no-ff" dev
+
+
+git reset
+
+
+git stash
+git stash list
+git stash apply
+git stash drop
+git stash pop
+
+git push
